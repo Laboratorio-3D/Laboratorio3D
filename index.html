@@ -1,137 +1,95 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio3D</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #e74c3c;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
-        }
-        .container {
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .section-title {
-            font-size: 2em;
-            margin: 20px 0;
-            color: #e74c3c;
-        }
-        .product, .advantage {
-            background-color: white;
-            margin: 20px 0;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .product img, .advantage img {
-            max-width: 100%;
-            border-radius: 5px;
-        }
-        .product h3, .advantage h3 {
-            margin-top: 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        footer p {
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Laboratorio3D</h1>
-    </header>
-    <nav>
-        <a href="#productos">Productos</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#ventajas">Ventajas de la Impresión 3D</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-    <div class="container">
-        <section id="productos">
-            <h2 class="section-title">Nuestros Productos</h2>
-            <div class="product">
-                <h3>Producto 1</h3>
-                <img src="ruta_a_la_imagen_del_producto_1.jpg" alt="Producto 1">
-                <p> Soporte para control de Xbox 1.Mantén tus mandos organizados: Este soporte para control de Xbox te permite mantener tus mandos de forma ordenada y al alcance de la mano cuando no los estés usando. Olvídate de perder tiempo buscando tus controles, ¡siempre estarán listos para jugar!
-.</p>
-            </div>
-            <div class="product">
-                <h3>Producto 2</h3>
-                <img src="ruta_a_la_imagen_del_producto_2.jpg" alt="Producto 2">
-                <p>Soporte para aduifonos.Diseño ergonómico: El soporte está diseñado específicamente para mantener tus audífonos gamer en perfecto estado cuando no los estás usando. Su diseño ergonómico evita deformaciones y alarga la vida útil de tus audífonos favoritos..</p>
-            </div>
-        </section>
-        <section id="servicios">
-            <h2 class="section-title">Nuestros Servicios</h2>
-            <div class="product">
-                <h3>Servicio de Impresión 3D</h3>
-                <img src="ruta_a_la_imagen_del_servicio.jpg" alt="Servicio de Impresión 3D">
-                <p>ofrecemos servicio de impresion3D. todo se cobrara por gramaje de impresion y tiempo ed impresion.</p>
-            </div>
-        </section>
-        <section id="ventajas">
-            <h2 class="section-title">Ventajas de la Impresión 3D</h2>
-            <div class="advantage">
-                <h3>Ventaja 1</h3>
-                <img src="ruta_a_la_imagen_de_la_ventaja_1.jpg" alt="Ventaja 1">
-                <p>Personalización Total 1.Personalización Total: La impresión en 3D permite la creación de productos personalizados según las necesidades específicas de cada cliente. Desde diseños únicos hasta ajustes precisos, cada pieza puede ser única..</p>
-            </div>
-            <div class="advantage">
-                <h3>Ventaja 2</h3>
-                <img src="ruta_a_la_imagen_de_la_ventaja_2.jpg" alt="Ventaja 2">
-                <p> Reducción de Costos2. En comparación con los métodos tradicionales de fabricación, la impresión en 3D puede ser más rentable para producciones a pequeña y gran escala. Además, reduce los costos asociados con el almacenamiento de inventario..</p>
-            </div>
-        </section>
-        <section id="contacto">
-            <h2 class="section-title">Contacto</h2>
-            <p>Si tienes alguna pregunta o deseas más información, no dudes en contactarnos a través del siguiente formulario:</p>
-            <form action="tu_script_de_procesamiento_de_formulario.php" method="post">
-                <label for="name">Nombre:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Correo Electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label for="message">Mensaje:</label><br>
-                <textarea id="message" name="message" required></textarea><br>
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-    </div>
-    <footer>
-    </footer>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+#carousel {
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    display: inline-block;
+}
+
+.carousel-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: none;
+}
+
+.carousel-image:first-child {
+    display: inline-block;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#pricing ul {
+    list-style: none;
+    padding: 0;
+}
+
+#pricing li {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 20px;
+}
